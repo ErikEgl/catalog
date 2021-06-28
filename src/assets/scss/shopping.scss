@@ -1,0 +1,32 @@
+.shopping-container {
+    width: 97%;
+    height: 97vh;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    padding: $spacing-l;
+    background-color: $white_color;
+    box-shadow: $box-shadow;
+}
+.shopping-element__name {
+    padding: $spacing-m;
+    font-weight: bold;
+}
+.shopping-element__price {
+    padding: $spacing-m;
+    color: $color-unaccent;
+}
+.shopping__close {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 20px;
+    right: 20px;
+    background-image: url(https://e7.pngegg.com/pngimages/363/693/png-clipart-computer-icons-symbol-miscellaneous-logo-thumbnail.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    cursor: pointer;
+}

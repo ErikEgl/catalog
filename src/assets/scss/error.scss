@@ -1,0 +1,19 @@
+.error-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.error-message {
+    padding: 20px 40px;
+    min-width: 400px;
+    text-align: center;
+    background-color: $color-medium;
+    box-shadow: $box-shadow;
+    color: $color-dark;
+    border-left: 7px solid $color-dark;
+    font-weight: bold;
+}

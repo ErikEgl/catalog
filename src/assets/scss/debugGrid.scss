@@ -1,0 +1,17 @@
+.debugGrid {
+    @include debug(rgba(0, 0, 0, 0.3), 0.0625rem solid #ff0);
+    z-index: 9999;
+    pointer-events: none;
+  }
+  
+  .container,
+  .debugGrid > div {
+    @include container();
+    @include p22-block() {
+      max-width: var(--container);
+    }
+  }
+  
+  .container-fluid {
+    @include container-full();
+  }
